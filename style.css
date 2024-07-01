@@ -1,0 +1,377 @@
+*
+{
+    margin: 0;
+    padding:5px;
+
+}
+
+
+body{
+
+    background-color:white;
+    background-repeat:repeat;
+}
+
+ul {
+    list-style-type: none;
+    margin:-10px;
+    padding:-50px;
+    overflow: hidden;
+    background-color: #333;
+    margin-top:-20px;
+    padding-bottom: -10px;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: -10px 5px;
+    text-decoration: none;
+    font-size:20.5px;
+  }
+
+ 
+  li a:hover:not(.active) 
+  {
+    background-color: #111;
+    text-decoration: underline red;
+  }
+  
+  .active {
+    background-color: #01c275;
+  }
+.subtitle
+{
+
+font-size:45px;
+    
+
+}
+
+.BREAKING
+{
+
+    height:150PX ;
+    width:200px;
+    margin-left: 1200px;
+    margin-bottom:20px;
+    font-size: 25px;
+    margin-top:50px;
+    cursor: pointer;
+}
+
+
+
+.topicimg
+{
+    margin-left:500px;
+    margin-top: -70px;
+    cursor: pointer;
+    margin-bottom:10px;
+    height:10px ;
+    width: 20px;
+    
+    
+}
+
+
+.lan
+{
+    font-size:-10px;
+    cursor: pointer;
+}
+.LANBTN
+{
+    font-size:15px;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+
+
+.weather
+{
+    margin-left:150px;
+    margin-top: -50px;
+    cursor: pointer;
+    
+
+}
+
+.sbtn-0
+{
+    font-size:10px;
+    cursor: pointer;
+    padding: -40px;
+}
+
+.social
+{
+    font-size:23px;
+    margin-left:1210px;
+    margin-top: -50px;
+    cursor: pointer;
+}
+
+.subs
+{
+    margin-left: 1000px;
+    margin-top: -40px;
+    margin-bottom:90px;
+    
+}
+
+.sbtn-1
+{
+
+border: red;
+color: red;
+color: white;
+background-color: red;
+font-weight: bolder;
+border-radius: 25px;
+font-size:13px;
+cursor: pointer;
+}
+
+.sign
+{
+    margin-left: 1150px;
+    margin-top: -124px;
+}
+
+.signin
+{
+    font-size:10px;
+    border-radius:18px;
+    color:black;
+    cursor: pointer;
+    
+}
+
+
+
+.container
+{
+    width:100vw;
+    height:10vh;
+    position: relative;
+    background-size:cover;
+    background-repeat: repeat;
+    color: white;
+    text-shadow: 0 0 3px #0e0000, 0 0 5px #000000;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+}
+
+.container > div
+{
+    height:270px;
+    font-size:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    background-position: fixed;
+    cursor: pointer;
+    
+}
+
+
+.container > div:nth-of-type(2)
+{
+    grid-column:2/4;
+}
+
+.container > div:nth-of-type(15)
+{
+    grid-column:1/3;
+}
+
+
+
+.container > div:nth-of-type(8)
+{
+    grid-column:1/3;
+}
+
+
+
+
+
+.title h1
+{
+
+    font-size:25px;
+}
+h1 span
+{
+    font-size:20px;
+}
+
+.container > div:hover
+{
+   color: rgb(255, 255, 255);
+   transform: scale(0.95);
+}
+
+.container > div h1
+{
+    
+    font-size:20px;
+
+}
+
+.container > div h3
+{
+    
+    font-size:20px;
+
+}
+
+.container > div h4
+{
+    
+    font-size:20px;
+
+}
+
+
+
+
+
+.ovlyn1
+{
+    background-image: url(Picture1.jpg);
+    background-size: cover;
+    background-size:cover;
+    
+}
+.ovlyn2
+{
+    background-image: url(picture2\ \(2\).jpg);
+    background-size: cover;
+}
+
+.ovlyn3
+{
+    background-image: url(Picture3.jpg);
+    background-size: cover;
+}
+
+.ovlyn4
+{
+    background-image: url(Picture4.jpg);
+    background-size: cover;
+}
+.ovlyn5
+{
+    background-image: url(picture\ 5.jpg);
+    background-size: cover;
+}
+
+.ovlyn6
+{
+    background-image: url(Picture6.jpg);
+    background-size: cover;
+}
+
+.ovlyn7
+{
+    background-image: url(Picture7.jpg);
+    background-size: cover;
+}
+
+
+.ovlyn8
+{
+    background-image: url(Picture8.jpg);
+    background-size: cover;
+}
+
+.ovlyn9
+{
+    background-image: url(Picture9.png);
+    background-size: cover;
+}
+
+.ovlyn10
+{
+    background-image: url(Picture10.jpg);
+    background-size: cover;
+}
+
+.ovlyn11
+{
+    background-image: url(Picture11.jpg);
+    background-size: cover;
+}
+
+.ovlyn12
+{
+    background-image: url(Picture12.jpg);
+    background-size: cover;
+}
+
+.ovlyn13
+{
+    background-image: url(Picture13.jpg);
+    background-size: cover;
+}
+
+.ovlyn14
+{
+    background-image: url(Picture14.jpg);
+    background-size: cover;
+}
+
+.ovlyn15
+{
+    background-image: url(Picture15.jpg);
+    background-size: cover;
+}
+
+.ovlyn16
+{
+    background-image: url(Picture16.jpg);
+    background-size: cover;
+}
+
+.ovlyn17
+{
+    background-image: url(Picture17.jpg);
+    background-size: cover;
+}
+.ovlyn18
+{
+    background-image: url(Picture18.png);
+    background-size: cover;
+}
+.ovlyn19
+{
+    background-image: url(Picture19.jpg);
+    background-size: cover;
+}
+.ovlyn20
+{
+    background-image: url(Picture20.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
